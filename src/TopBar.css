@@ -1,0 +1,21 @@
+/* TopBar.css */
+.topbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.topbar-button {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.topbar-button:hover {
+  background-color: #555;
+}
